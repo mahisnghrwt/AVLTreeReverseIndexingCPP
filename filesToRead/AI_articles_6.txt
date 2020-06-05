@@ -1,0 +1,57 @@
+Making A Case For Machine Learning Compilers With MLIR
+RAM SAGAR
+5 DAYS AGO
+
+
+
+Photo by Tim Martin
+There is an urge, now, amongst the makers of smart devices to cater to the growing desires of their users to have devices which are heavy on specs while light on duty; accelerated hardware devices.
+
+Now the devices have human-like interactions, with vision and speech applications. Recently released TensorFlow Lite accommodates this lighter way of functioning via Android Neural networks API. This opens up a whole new paradigm of possibilities for on-device intelligence.
+
+TensorFlow’s machine learning platform has a comprehensive, flexible ecosystem of tools, libraries and community resources. This lets researchers push the state-of-the-art developments in ML and developers easily build and deploy ML-powered applications.
+
+
+With TensorFlow Lite it looks to make smartphones, the next best choice to run machine learning models.
+
+TensorFlow Lite is TensorFlow’s lightweight solution for mobile and embedded devices. It enables on-device machine learning inference with low latency and small binary size.
+
+ W3Schools
+TensorFlow is now moving to MLIR for its core infrastructure.
+
+TensorFlow Lite is another graph representation with a different interpreter. The TensorFlow Lite Translator is a mini compiler that does a number of compiler passes.
+
+MLIR stands for one of “Multi-Level Intermediate Representation” or “Multi-dimensional Loop IR” or “Machine Learning IR” – the MLIR team prefers the first interpretation.
+
+Moving it to MLIR makes it easier to test and develop, and the user experience is dramatically improved due to the location tracking in MLIR.
+
+Need For New Compiler
+
+Abstraction is a common trait amongst the now widely used machine learning libraries or frameworks. Dusting off the nitty-gritty details under the rug and concentrating on implementing algorithms with more ease is what any data scientist would like to get their hands on. TensorFlow rose into prominence for the very same reason- abstraction.
+
+A compiler is a piece of code which converts code written in high level(user friendly) to low-level(machine language).
+
+Compilers are full of NP-complete problems. The natural way to handle these are to go with simple heuristics. By offloading this to an offline service, one can use expensive search algorithms like reinforcement learning  to get better results, without impacting interactive turnaround time.
+
+MLIR is being developed by Chris Lattner(LLVM)  and it borrows significantly from LLVM IR, but with some tweaking at the  architectural level that LLVM compiler has accumulated over the years. Particularly with regard to its separate treatment of intrinsics vs. built-in operations.
+
+MLIR is a compiler intermediate representation with similarities to traditional three-address SSA (Static Single Assignments) representations (like LLVM IRor SIL), but which introduces notions from the polyhedral loop optimization works as first class concepts.
+
+Another benefit of MLIR is its generalisation which enables other languages to adopt it. MLIR is more open-ended in its architecture, able to support multiple levels and “dialects” via the same infrastructure.
+
+Beyond its representational capabilities, its single continuous design provides a framework to lower from dataflow graphs to high performance target specific code.
+
+The representation allows high-level optimization and parallelization for a wide range of parallel architectures including those with deep memory hierarchies — general-purpose multicores, GPUs, and specialized neural network accelerators.
+
+Key Takeaways
+
+MLIR’s main aim is to optimise computations with respect to dense matrices of high dimensionality which benefit deep learning tasks.
+MLIR has the ability to represent all TensorFlow graphs, including dynamic shapes, the user-extensible op ecosystem, TensorFlow variables, etc.
+Optimizations and transformations typically done on a TensorFlow graph, e.g. in Grappler.
+Quantization and other graph transformations done on a TensorFlow graph or the TF Lite representation.
+Representation of kernels for ML operations in a form suitable for optimization.
+MLIR has the ability to host high-performance-computing-style loop optimizations across kernels and to transform memory layouts of data.
+MLIR is designed to facilitate concurrency both in the semantic it captures and how it can be processed.
+TensorFlow’s machine learning platform has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.
+
+Know more about MLIR here

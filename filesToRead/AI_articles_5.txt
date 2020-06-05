@@ -1,0 +1,40 @@
+Obtaining constructive data for artificial intelligence | MEED
+Last updated: 05-04-2019
+
+Read original article here
+
+Obtaining constructive data for artificial intelligence | MEED
+
+The human mind can process only a limited amount of information at any point in time. However, artificial intelligence (AI), which is modelled on natural human intelligence, harnesses the processing power of computers to capture large amounts of data then analyses this information to identify patterns and trends. AI uses machine learning to solve problems and execute tasks with greater speed and accuracy.
+
+As computers begin to process more data over a longer period, they continue to learn and adjust their algorithms in a similar way to the human brain. This process is known as ‘deep learning’.
+
+A pilot project conducted for a leading transport provider in the region sought to use AI-enabled computers to improve safety and inspection on the client’s worksite. The AI software used images and data captured on-site to ‘understand’ hazards and dangerous situations. Through computer vision recognition, the system could determine which construction workers were wearing safety hats.
+
+The AI computer vision algorithm was exposed to numerous photos of construction workers wearing safety hats, and these photos were classified accordingly.
+
+The primary challenge we faced in this pilot was feeding sufficient data into the software system, a challenge that can be tackled once more clients are open to the idea of collaborating and sharing data to improve the technology industry-wide.
+
+With cloud-based applications and mobile devices, the amount of data that is captured on a job site has grown exponentially over the past 10 years.
+
+This information is valuable in conducting deeper analysis, as well as in capitalising on trends and scenarios to make projects and companies more profitable. AI provides insights into data that humans cannot process – or cannot process quickly enough. It can be used to improve productivity, safety, quality and scheduling.
+
+Engineering and construction (E&C) companies’ initial use of AI technologies comes with an upfront cost that not all companies are willing to pay. Mature learning models have a direct bearing on the effectiveness of the AI applications that use them, and the quality of the data that is collected to develop a learning model has a direct bearing on its success.
+
+Technology start-ups that operate in the field currently face several challenges in encouraging companies to work with them to develop learning models.
+
+Various tech start-ups are developing AI applications that solve the same problems in the E&C industry. Which AI application will survive? Which tech start-up will survive and mature into a full-fledged business? E&C companies are faced with the challenge of choosing AI systems at the risk of losing their investment if the tech start-up that owns the application becomes insolvent, or if they invest in a product that does not become widely adopted.
+
+AI applications need data to develop learning models, which requires the cooperation of the E&C companies. Not all firms are willing – or can afford – to invest their resources in developing and testing learning models. Some may also be reluctant to share data that they consider to be their intellectual property.
+
+The creation of new business structures that encourage construction companies and tech start-ups to work together are required to avoid disputes over ownship of the learning model.
+
+Models developed for the E&C industry may vary by geographic markets, which could require the development of different learning models for each market.
+
+For instance, in North America, white hard hats are the de facto standard at construction sites. In the Middle East, hard hats could be of different colours. AI models would need to understand these regional differences.
+
+E&C companies may be reluctant to adopt AI technologies that require a longer period of return.
+
+Regardless of the challenges, AI is here to stay and is gaining momentum. E&C companies that are willing to invest their resources in researching AI innovations, conducting proofs of concept and developing plans to adopt these technologies will position themselves to maintain competitiveness and grow their market share.
+
+Nour Kassassir is the vice-president and chief information officer for Parsons Middle East and Africa

@@ -1,0 +1,24 @@
+
+Toyota AI Ventures launches $100M fund to invest in robotics and autonomous tech
+Kirsten Korosec@kirstenkorosec / 5 days ago
+ Comment
+toyota-ces-7
+Toyota AI Ventures,  a subsidiary of Toyota Research Institute, has a new $100 million fund that will focus on finding and investing in early-stage robotics and autonomous technology startups.
+
+This second fund, aptly dubbed Fund II, brings the firm’s total assets under management to more than $200 million.
+
+“The growing interest in automated systems has created great opportunities to improve human lives using AI and next-generation mobility technology,” said Dr. Gill Pratt,  chief executive officer at TRI and Toyota AI Ventures investment committee member.
+
+Toyota AI Ventures is a newcomer to the scene. Still, it’s managed to invest in 19 startups since launching in 2017, including Nauto, autonomous shuttle company May Mobility, social companion cognitive AI startup Intuition Robotics and Joby Aviation, the electric vertical takeoff and landing passenger aircraft service.
+
+Since its inception, Toyota AI Ventures has targeted early-stage startups and its investments have been directed at companies applying AI, data and cloud technologies to autonomous mobility and robotics.
+
+That primary aim isn’t changing. However, the firm is also interested in what Jim Adler, managing director of Toyota AI Ventures, described as “unbundling mobility.”
+
+“One of the things that we want to explore with Fund II is the unbundling of mobility,” Adler told TechCrunch. “The personally owned vehicle has provided tremendous safety, freedom, convenience and fun. What we’re now seeing is a phase of unbundling such as ride hailing, micromobility, etc. There are investment opportunities where autonomous technologies might accelerate these unbundled mobility products and services.”
+
+Capital has poured into the autonomous vehicle technology industry in recent years. Hundreds of companies, including full-stack AV developers, mapping startups and sensor companies, now exist in an industry that was empty a decade ago.
+
+While a handful of companies appear to control the looming robotaxi business, Adler contends that “profitable business models are still being proven.” He also believes there’s still space in the related sensor industry for startups.
+
+“For the various operating design domains, there’s no clear winning mix of cameras, radar, lidar and ultrasound,” Adler said. “There’s still room to run.”

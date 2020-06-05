@@ -1,0 +1,22 @@
+Atlas Robot Walks The Plank
+Written by Harry Fairhead	  
+Sunday, 05 May 2019
+Falling over is a huge risk for a big bipedal robot such as Atlas. So this video which demonstrates poise and balance as an Atlas negotiates safe crossing between two rickety platforms separated by stacks of narrow bricks shows real progress.
+
+Last time we looked at Boston Dynamics Atlas it impressed us with its Parkour skills - but we questioned whether it was doing the real time path planning.The Atlas robot seen in the video below was built by Boston Dynamics, but the control, perception, and planning algorithms are by IHMC Robotics and the robot is making all the decisions about where and how to place its feet.
+
+We first saw video footage from the Florida Institute For Human and Machine Cognition robotics team in 2013, see Atlas Walking Over Randomness. As in the new video, it demonstrated Atlas walking across a random collection of obstacles, but back then at floor level which was a less risky feat. It wasn't all that steady on its feet, as proved when it fell over. 
+
+At the time IHMC was gearing up to take part in the DARPA Robotics Challenge, the international competition aimed at advancing ground robotic capabilities focused on disaster response. Despite one spectacular fall, which is among those recorded in our report of the finals, IHMC was placed second, winning $1 million. The team has continued to work with Atlas to improve on its abilities to be useful in the role of rescue robot.
+
+According to its website:
+
+A big challenge for humanoid robots is bipedal walking. IHMC has been pioneering advanced control techniques for bipedal robots to maintain balance while walking over a wide variety of terrains. While great strides have recently been made in robotics, robots still are unable to get to all the same places as people. Our humanoid projects are focused on pushing our bipedal humanoids capabilities forward to handle rough terrain without any knowledge of the environment from onboard sensors. Then, when this knowledge is included, their performance is further improved. We are also focusing on the ability to robustly handle external disturbances. Our goal is to tackle increasingly more difficult walking challenges, giving robots the ability to traverse environments they never have before.
+
+
+
+The video is of the Atlas humanoid robot (DRC version) walking across narrow terrain using autonomous planning and was recorded on May 1, 2019.
+
+According to IHMC:
+
+The robot senses the terrain with LIDAR and builds a map of planar regions. A path planning algorithm plans footsteps across the planar regions to a goal location, specified by an operator. The robot is currently about 50% successful over this type of terrain. We plan to increase the rate of success by adding balance using angular momentum and by better considering joint ranges of motion. Narrow terrain is difficult due to the need to do some "cross-over" steps, which are tricky due to limited range of motion in the hip joint, and also due to having a small polygon of support when one foot is directly in front of the other.

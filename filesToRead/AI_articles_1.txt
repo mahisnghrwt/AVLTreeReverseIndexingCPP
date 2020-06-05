@@ -1,0 +1,26 @@
+I see you're writing an app... Microsoft nudges AI Clippy-for-Code out the door, turns machine learning onto Word
+IntelliCode kinda available, online text editor to suggest sentence rewrites
+By Katyanna Quach 6 May 2019 at 23:01 16  Reg comments SHARE ▼
+
+Build Microsoft today announced various AI-related tools during its annual Build developer conference in Seattle.
+
+Are you tired of your stubby fingers hitting the wrong keys when you code? Are you tired of pressing the delete key again and again? Are you tired of pesky spelling mistakes and buggy source? Well, perhaps Redmond's IntelliCode, first teased around this time last year, may just be what you need.
+
+The machine-learning-backed software is, essentially, like an autocorrect or autofill tool for code in Visual Studio, and is now kinda generally available. As you type, it recommends code to use next in popup boxes to help you complete and format your source. Some people swear by it, some of us find this kind of hand-holding nauseating.
+
+In any case, this whiz-bang IntelliCode supports the programming languages C++, C#, Python, JavaScript, Java, and TypeScript to varying degrees. Visual Studio 2019 Version 16.1's IntelliCode, for instance, can predict C# and XAML, and that support is now generally available; support for the other languages remains in preview. Yes, it's the usual fractured Redmond release approach.
+
+Microsoft built the tool by training machine-learning models on source code scraped from more than 2,000 public GitHub repositories. To ensure that the training set is of a decent quality, the projects slurped had to have at least 100 stars from other programmers. Microsoft now owns GitHub, don't forget.
+
+
+Microsoft reckons devs would like an AI Clippy to help them write code
+READ MORE
+If you’re a C# scribbler, however, there’s an extra feature for you to preview. IntelliCode can be tweaked to work with a custom model, and can recommend code that isn’t drawn from the public training data. Instead it can be based on your own code or domain specific library calls.
+
+At the moment, the tool can only really carry out autocorrect-like functions. Microsoft hopes that it’ll expand to help developers to do other tasks like fixing bugs or helping you review your own code.
+
+Here’s the link to IntelliCode for Python, JavaScript/TypeScript and Java, and here’s another link if you program in C#, C++, JavaScript/TypeScript, or XAML.
+
+Also, there’s a similar tool called Ideas for Microsoft Word Online. Ideas also uses machine learning techniques to analyse language and offers suggestions on how best to rewrite sentences to improve grammar as you type.
+
+Finally, Redmond announced it was crafting an end-to-end software package that can run AI code autonomously on real robots. It’s still early days, and the toolkit is currently a limited preview program. A few companies such as Sarcos and Toyota have employed the tool for their robots and forklifts. ®

@@ -1,0 +1,146 @@
+AutoML: The Next Wave of Machine Learning
+Go to the profile of Parul Pandey
+Parul PandeyFollow
+Apr 18
+
+AI and machine learning is still a field with high barriers to entry that requires expertise and resources that few companies can afford on their own: Fei-Fei Li
+Mercari is a popular shopping app in Japan that has been using AutoML Vision (Google’s AutoML solution) for classifying images. According to Mercari, they’ve been “developing their own ML model that suggests a brand name from 12 major brands in the photo uploading user interface.”
+While their own model—trained on TensorFlow—achieved an accuracy of 75%, AutoML Vision in advanced mode with 50,000 training images achieved an accuracy of 91.3%, which is a whopping 15% increase. With such astounding results, Mercari has integrated AutoML into their systems.
+This is just one example of how AutoML is fundamentally changing the face of ML-based solutions today by enabling people from diverse backgrounds to evolve machine learning models to address complex scenarios.
+Automated Machine Learning: AutoML
+Machine learning has provided some significant breakthroughs in diverse fields in recent years. Areas like financial services, healthcare, retail, transportation, and more have been using machine learning systems in one way or another, and the results have been promising.
+Machine learning today is not limited to R&D applications but has made its foray into the enterprise domain. However, the traditional ML process is human-dependent, and not all businesses have the resources to invest in an experienced data science team. AutoML may be the answer to such situations.
+Automated machine learning (AutoML) is the process of automating the end-to-end process of applying machine learning to real-world problems. AutoML makes machine learning available in a true sense, even to people with no major expertise in this field.
+A typical machine learning model consists of the following four processes:
+
+How to automate Machine Learning pipeline : Axel de Romblay
+Right from ingesting data to pre-processing, optimization, and then predicting outcomes, every step is controlled and performed by humans. AutoML essentially focuses on two major aspects — data acquisition/collection and prediction. All the other steps that take place in between can be easily automated while delivering a model that’s optimized well and ready to make predictions.
+The Need for AutoML
+The demand for machine learning systems has soared over the past few years. This is due to the success of ML in a wide range of applications today. However, even with this clear indication that machine learning can provide boosts to certain businesses, a lot of companies struggle to deploy ML models.
+First, they need to set up a team of seasoned data scientists who command a premium salary. Second, even if you have a great team, deciding which model is the best for your problem often requires more experience than knowledge.
+The success of machine learning in a wide range of applications has led to an ever-growing demand for machine learning systems that can be used off the shelf by non-experts¹. AutoML tends to automate the maximum number of steps in an ML pipeline—with a minimum amount of human effort and without compromising the model’s performance.
+Advantages
+The advantages of AutoML can be summed up in three major points:
+Increases productivity by automating repetitive tasks. This enables a data scientist to focus more on the problem rather than the models.
+Automating the ML pipeline also helps to avoid errors that might creep in manually.
+Ultimately, AutoML is a step towards democratizing machine learning by making the power of ML accessible to everybody.
+Subscribe to Deep Learning Weekly and join more than 10,000 of your peers. Weekly access to the latest deep learning industry news, research, code libraries, tutorials, and much more.
+AutoML Frameworks
+Let’s take a look at some of the popular frameworks that tend to automate some or the entire machine learning pipeline. This isn’t an exhaustive list, but I’ve tried to cover the ones that are being used on a larger scale.
+1. MLBox
+
+MLBox is a powerful automated machine learning Python library. According to the official documentation, this library provides the following features:
+Fast reading and distributed data preprocessing/cleaning/formatting.
+Highly robust feature selection, leak detection, and accurate hyperparameter optimization
+State-of-the-art predictive models for classification and regression (Deep Learning, Stacking, LightGBM,…)
+Prediction with model interpretation
+It has already been tested on Kaggle and performs well. (see Kaggle “Two Sigma Connect: Rental Listing Inquiries” | Rank: 85/2488)
+Pipeline
+MLBox’s main package contains 3 sub-packages for automating the following tasks:
+Pre-processing: for reading and pre-processing data.
+Optimization: for testing and cross-validating the models
+Prediction: for making predictions.
+Installation
+Currently, MLBox is only compatible with Linux, but Windows and MacOS support will be added very soon.
+#gcc
+sudo apt-get install build-essential
+#cmake
+pip install cmake
+pip install mlbox
+Demo
+Running the “MLBox” auto-ML package on the Famous House Prices Regression problem.
+
+Full source code
+2. Auto-Sklearn
+Auto-Sklearn is an automated machine learning package built on top of Scikit-learn. Auto-sklearn frees a machine learning user from algorithm selection and hyperparameter tuning. It includes feature engineering methods such as one-hot encoding, numeric feature standardization, PCA, and more. The models use sklearn estimators for classification and regression problems.
+
+Auto-sklearn pipeline
+Auto-sklearn creates a pipeline and optimizes it using Bayesian search. Two components are added to Bayesian hyperparameter optimization of an ML framework: meta-learning for initializing the Bayesian optimizer and automated ensemble construction from configurations evaluated during optimization.
+Auto-sklearn performs well on small and medium-sized datasets, but it cannot be applied to modern deep learning systems that yield state-of-the-art performance on large datasets.
+Installation
+Auto-sklearn currently only works on Linux machines.
+#dependencies
+curl https://raw.githubusercontent.com/automl/auto-sklearn/master/requirements.txt | xargs -n 1 -L 1 pip install
+#auto-sklearn
+pip install auto-sklearn
+Demo
+The following example shows how to fit a simple regression model with Auto-Sklearn.
+
+Source
+3. Tree-Based Pipeline Optimization Tool (TPOT)
+
+TPOT is a Python automated machine learning tool that optimizes machine learning pipelines using genetic programming. TPOT extends the Scikit-learn framework but with its own regressor and classifier methods. TPOT works by exploring thousands of possible pipelines and finding the best one for your data.
+
+Portions of the machine learning process automated by TPOT
+TPOT cannot automatically process natural language inputs. Additionally, it’s also not able to processes categorical strings, which must be integer-encoded before being passed in as data.
+Installation
+pip install tpot
+For detailed instructions, please visit the TPOT installation instructions in the documentation.
+Demo
+Demonstrating the working of TPOT for classifying MNIST digits.
+
+TPOT Demo on MNIST database
+4. H2O
+
+H2O is a fully open source, distributed in-memory machine learning platform from the company H20.ai. With support for both R and Python, H20 supports the most widely used statistical & machine learning algorithms, including gradient boosted machines, generalized linear models, deep learning models, and more.
+H2O includes an automatic machine learning module that uses its own algorithms to build a pipeline. It performs an exhaustive search over its feature engineering methods and model hyperparameters to optimize its pipelines
+H2O automates some of the most difficult data science and machine learning workflows, such as feature engineering, model validation, model tuning, model selection and model deployment. In addition to this, it also offers automatic visualizations and machine learning interpretability (MLI).
+Installation
+Follow the link below to download and install H2O on your systems.
+Downloading & Installing H2O — H2O 3.11.0.3888 documentation
+
+Edit description
+h2o-release.s3.amazonaws.com	
+Demo
+Here’s an example showing the basic usage of the H2OAutoML class in Python:
+
+Source
+Output
+The AutoML object includes a “leaderboard” of models that were trained in the process, ranked by a default metric based on the problem type (the second column of the leaderboard). Here’s an example leaderboard for a binary classification task:
+
+5. AutoKeras
+
+Auto-Keras is an open source software library built by DATA Lab for automated machine learning. Auto-Keras, which is based on the Keras deep learning framework provides functions to automatically search for architecture and hyperparameters for deep learning models.
+The API’s design follows the classic design of the Scikit-Learn API; hence, it’s extremely simple to use. The current version provides functionalities to automatically search for hyperparameters during the deep learning process.
+Auto-Keras tends to simplify the ML process through the use of automated Neural Architecture Search (NAS) algorithms. Neural Architecture Search essentially replaces the deep learning engineer/practitioner with a set of algorithms that automatically tunes the model.
+Installation
+The installation part is also very simple:
+pip install autokeras #only comptible with Python 3.7
+Demo
+Here’s a demo of Auto-Keras library on the MNIST dataset:
+
+Source
+6. Cloud AutoML
+Cloud AutoML is a suite of machine learning products from Google that enables developers with limited machine learning expertise to train high-quality models specific to their business needs by leveraging Google’s state-of-the-art transfer learning and Neural Architecture Search technology.
+Cloud AutoML provides a simple graphical user interface (GUI) to train, evaluate, improve, and deploy models based on your own data. Currently, the suite provides the following AutoML solutions:
+
+Products available under Google’s AutoML category
+The downside of Google’s AutoML is that isn’t open source and hence comes with a price. In the case of AutoML Vision, the cost depends both on the time taken to train the model as well as in terms of how many images you send to AutoML Vision for predictions. The pricing is as follows:
+
+AutoML Vision pricing
+
+Source
+7. TransmogrifAI
+
+TransmogrifAI is an open source automated machine learning library from Salesforce. The company’s flagship ML platform called Einstein is also powered by TransmogrifAI. It is an end-to-end AutoML library for structured data written in Scala that runs on top of Apache Spark. TransmogrifAI is especially useful when you need to :
+Rapidly train good quality machine learnt models with minimal hand tuning
+Build modular, reusable, strongly-typed machine learning workflows
+Installation
+There are some pre-requisites like Java and Spark that need to be installed.
+#Install JAVA 1.8
+#Get Spark 2.3.x
+git clone https://github.com/salesforce/TransmogrifAI.git
+cd TransmogrifAI && ./gradlew compileTestScala installDist
+Read the documentation for complete installation instructions.
+Demo
+Predicting Titanic Survivors with TransmogrifAI. See the entire example here.
+
+Check out the results of the above code here.
+The Future of AutoML
+Essentially, the purpose of AutoML is to automate the repetitive tasks like pipeline creation and hyperparameter tuning so that data scientists can actually spend more of their time on the business problem at hand.
+AutoML also aims to make the technology available to everybody rather than a select few. AutoML and data scientists can work in conjunction to accelerate the ML process so that the real effectiveness of machine learning can be utilized.
+Whether or not AutoML becomes a success depends mainly on its adoption and the advancements that are made in this sector. However, it’s clear that AutoML is a big part of the future of machine learning.
+References
+Efficient and Robust Automated Machine Learning
+Benchmarking Automatic Machine Learning Frameworks
+Editor’s Note: Join Heartbeat on Slack and follow us on Twitter and LinkedIn for the all the latest content, news, and more in machine learning, mobile development, and where the two intersect.
